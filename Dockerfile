@@ -1,6 +1,6 @@
 FROM alpine:3.8
 
-ARG RCLONE_VERSION="current"
+ARG RCLONE_VERSION="1.45"
 ENV RCLONE_TYPE="amd64"
 ENV BUILD_DEPS \
       wget \
