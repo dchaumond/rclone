@@ -24,5 +24,5 @@ RUN set -x \
     && apk del .build-deps
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
-ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD [""]
+ENTRYPOINT ["/rclone"]
+CMD ["--help"]
